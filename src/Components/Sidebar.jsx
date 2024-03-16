@@ -48,7 +48,7 @@ function Sidebar() {
   ];
 
   return (
-    <div className="w-24 bg-[#EDEFF2] h-screen flex flex-col items-center justify-between py-8 border-2 border-r-[#EDEFF2]">
+    <div className="w-24 bg-[#EDEFF2] flex flex-col items-center justify-between py-8 border-2 border-r-[#EDEFF2]">
       <div className="flex flex-col items-center justify-between gap-3">
         {data.map((item, index) => {
           return (

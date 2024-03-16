@@ -4,13 +4,13 @@ import Sidebar from './Sidebar'
 
 function Navbar({children}) {
   return (
-    <div>
+    <div className='bg-[#EDEFF2]'>
     <div >
     <Header1 />
     </div>
     <div className='flex flex-row'>
         <Sidebar />
-    <div>
+    <div className='w-full'>
         {children}
     </div>
     </div>
